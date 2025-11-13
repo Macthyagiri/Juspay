@@ -14,7 +14,7 @@ public class FlipkartBuyProductTest extends BaseTest {
     @DataProvider(name = "productData")
     public Object[][] getData() {
         return new Object[][] {
-            {"6303219233", "T Shirt", "500032"} // mobile, product, pincode
+            {"7036007030", "T Shirt", "500032"} // mobile, product, pincode
         };
     }
 
