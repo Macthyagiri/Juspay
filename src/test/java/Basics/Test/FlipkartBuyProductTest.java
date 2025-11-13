@@ -25,7 +25,7 @@ public class FlipkartBuyProductTest extends BaseTest {
         product = new ProductPage(driver);
         cart = new CartPage(driver);
 
-        //login.loginWithMobile(mobile);
+        login.loginWithMobile(mobile);
         home.searchProduct(productName);
         product.selectFirstProduct();
         cart.switchToProductWindow();
